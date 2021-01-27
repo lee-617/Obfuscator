@@ -20,10 +20,6 @@ Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.co
 
 <img src="https://s3.ax1x.com/2021/01/27/szKOo9.png" alt="szKOo9.png" border="0" />
 
-混淆前后：
-
-<img src="https://s3.ax1x.com/2021/01/27/szMCLD.png" alt="szMCLD.png" border="0" />
-
 **围绕提审 AppStore 应用市场，本软件专门针对以下需求：**
 
 - 因为工程代码重复问题，提交 AppStore 被驳回4.3，无论如何修改再过审很困难；
@@ -38,6 +34,14 @@ Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.co
 - 一键打包提审：iOS 自动化部署发布，处理所有繁琐的提审流程，做到让你的工作实现并发；
 - app 审核状态监控：一次登录，快速查看提交 app 的审核状态，并生成提交记录和汇总统计；
 - 内跳 SDK：满足马甲包跳转这一核心需求，经过加密稳定可靠的SDK。内跳 SDK已经过内部超过 300+ 个马甲包的测试，除账号问题外，安全率极高；
+
+软件细节展示：
+<img src="https://s3.ax1x.com/2021/01/27/szQAnU.png" alt="d_options" />
+
+<font color=blue>混淆前后展示：</font>
+
+<img src="https://s3.ax1x.com/2021/01/27/szQSts.png" alt="sz_add_m" />
+<img src="https://s3.ax1x.com/2021/01/27/szMCLD.png" alt="szMCLD.png" border="0" />
 
 ## 更新日志
 
