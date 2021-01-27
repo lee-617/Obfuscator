@@ -6,13 +6,22 @@
 
 混淆器 `iOSObfuscator` 是集合了<b>代码混淆、一键打包提审、审核监控、内跳SDK 和 常用开发提审工具集</b> 五个模块构建出来的 Mac 软件。<br><br>
 
+**相关连接：**
 Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.com/lee-617/Obfuscator)<br />
 官网地址:[http://118.31.36.105/index.html](http://118.31.36.105/index.html)<br />
 官方文档-使用说明:[http://118.31.36.105/docs/index.html](http://118.31.36.105/docs/index.html)<br />
 
 软件并非开源，如有混淆需求、马甲包开发、TF签名等需求，请联系我在线详谈QQ:2480619280
 
-----
+-------
+
+软件截图：
+
+<a href="https://imgchr.com/i/szKOo9"><img src="https://s3.ax1x.com/2021/01/27/szKOo9.png" alt="szKOo9.png" border="0" /></a>
+
+混淆前后：
+
+<a href="https://imgchr.com/i/szMCLD"><img src="https://s3.ax1x.com/2021/01/27/szMCLD.png" alt="szMCLD.png" border="0" /></a>
 
 **围绕提审 AppStore 应用市场，本软件专门针对以下需求：**
 
