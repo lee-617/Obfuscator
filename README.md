@@ -1,17 +1,18 @@
 <img src="https://s3.ax1x.com/2021/01/27/szmFC6.png" alt="lee_con_logo" height=150>
 
-
-
 # iOSObfuscator - 代码混淆加固大幅提高AppStore过审率
+
+<img src="https://img.shields.io/badge/platform-ios%7Cmac%7CEgret%7Ccocos2dx%2BLua-orange" alt="platform">
 
 混淆器 `iOSObfuscator` 是集合了<b>代码混淆、一键打包提审、审核监控、内跳SDK 和 常用开发提审工具集</b> 五个模块构建出来的 Mac 软件。<br><br>
 
 Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.com/lee-617/Obfuscator)<br />
-官网地址:[https:///lee-617/Obfuscator](https://github.com/lee-617/Obfuscator)<br />
-官方文档:[https://github.com/lee-617/Obfuscator](https://github.com/lee-617/Obfuscator)<br />
+官网地址:[http://118.31.36.105/index.html](http://118.31.36.105/index.html)<br />
+官方文档-使用说明:[http://118.31.36.105/docs/index.html](http://118.31.36.105/docs/index.html)<br />
 
-软件并非开源，如有需求请联系：注册获取密钥
+软件并非开源，如有混淆需求、马甲包开发、TF签名等需求，请联系我在线详谈QQ:2480619280
 
+----
 
 **围绕提审 AppStore 应用市场，本软件专门针对以下需求：**
 
