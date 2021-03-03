@@ -18,7 +18,7 @@ Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.co
 
 **软件截图：**
 
-<img src="https://s3.ax1x.com/2021/01/27/szKOo9.png" alt="szKOo9.png" border="0" />
+<img src="http://118.31.36.105/docs/src_pics/group.png" alt="szKOo9.png" border="0" />
 
 **围绕提审 AppStore 应用市场，本软件专门针对以下需求：**
 
