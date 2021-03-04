@@ -281,6 +281,9 @@ iOS 开发中，一般有两种编写代码的方式：通过xib布局 或 纯�
 为了快速开发节省编码时间，我们在软件中放置了一个编辑器（目前只包含了工程的目录树和内容区进行展示），在右侧栏中，你可以在中间内容区一键插入/预览/拷贝一些我们预置的代码，分类目前有以下几种：
 
 - UIKit控件：UIView、UILabel、UIImageView、UIButton、UITextView、UITableView、UICollectionView、UIScrollView、UIPickerView、UIDataPicker、UISwitch、UIPageControl、UISearchBar、UIControl、UIProgressView、UISegmentedControl、UISlider、UIImage
+- Foundation：NSLocale、NSURL、NSData、NSString、NSMutableString、NSCharacterSet、NSMutableParagraphStyle、NSRegularExpression、NSDateFormatter、NSArray、NSMutableArray、NSDictionary、NSMutableDictionary、NSSet、NSMutableSet、NSDate、NSCalendar、NSDateFormatter、NSURL、NSAttributedString、NSMutableAttributedString、NSDateComponents
+- CoreAnimation：CABasicAnimation、CAKeyframeAnimation、CASpringAnimation
+- 基本数据类型：NSRange、NSTimeInterval、NSInteger、NSUInteger、CGRect、CGSize、CGPoint、BOOL、CGFloat、float、double、int、unsigned int、unsigned long
 
 - 常用的iOS开发的工具函数：
   - 数组常用操作；
