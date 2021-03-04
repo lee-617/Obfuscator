@@ -4,7 +4,7 @@
 
 <img src="https://img.shields.io/badge/platform-ios%7Cmac%7CEgret%7Ccocos2dx%2BLua-orange" alt="platform">&emsp;<img src="https://img.shields.io/badge/version-v1.2.0-ff69b4" alt="version">
 
-混淆器 `iOSObfuscator` 是集合了<b>代码混淆、一键打包提审、审核状态监控、内跳SDK、常用开发工具集『icon一键替换、ipa重签名、本地化工具、json转model、色值小工具、文本和文档翻译、Assets。car/.app/.ipa资源提取工具等』 和 快速开发</b> 五个模块构建出来的 Mac 软件。<br><br>
+混淆器 `iOSObfuscator` 是集合了<b>代码混淆、一键打包提审、审核状态监控、内跳SDK、常用开发工具集『icon一键替换、ipa重签名、本地化工具、json转model、色值小工具、文本和文档翻译、Assets.car/.app/.ipa资源提取工具等』 和 快速开发</b> 五个模块构建出来的 Mac 软件。<br><br>
 
 > 注：
 > 
@@ -37,7 +37,7 @@ Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.co
 - 一键打包提审：iOS 自动化部署发布，处理所有繁琐的提审流程，做到让你的工作实现并发；
 - app 审核状态监控：一次登录，快速查看提交 app 的审核状态，并生成提交记录和汇总统计；
 - 内跳 SDK：满足马甲包跳转这一核心需求，经过加密稳定可靠的SDK。内跳 SDK已经过内部超过 300+ 个马甲包的测试，除账号问题外，安全率极高；
-- 常用开发工具集：如：icon一键替换、ipa重签名、本地化工具、json转model、色值小工具、文本和文档翻译、Assets。car/.app/.ipa资源提取工具等；
+- 常用开发工具集：如：icon一键替换、ipa重签名、本地化工具、json转model、色值小工具、文本和文档翻译、Assets.car/.app/.ipa资源提取工具等；
 - 助力快速开发的代码库：内置了大量分类的功能代码，一点就能直接插入。（由于功能方法需要测试，将继续扩充代码库）；
 
 **混淆界面细节展示：**
@@ -299,148 +299,133 @@ iOS 开发中，一般有两种编写代码的方式：通过xib布局 或 纯�
 
 软件正在努力维护测试中，当前版本已修复之前版本的各种问题。<br/>
 
-<template>
-    <a-timeline mode="left">
-        <a-timeline-item>
-            <b>当前线上版本 - v1.2.1</b>
-            <a-tag color="green">正式版</a-tag>
-            <p></p>
-            <p>
-                <font color=red><b>此版本存在以下『已知问题』，请注意：</b></font>
-                <br /><p></p>
-                &emsp;- <a-tag color="blue">『已知问题』</a-tag>出现了 ld: framework not found XXX.framework framework路径改变的问题；<br/>
-                &emsp;- <a-tag color="blue">『已知问题』</a-tag>pch文件位于工程根目录下，导致import的文件名未被修改的问题；<br/>
-                &emsp;- <a-tag color="blue">『已知问题』</a-tag>若对象创建时指向的是子类对象，在注入的时候可能导致调用到子类注入的方法而抛出异常的问题；<br/>
-                &emsp;- <a-tag color="blue">『已知问题』</a-tag>被混淆的文件中有与白名单中相同的属性名或者方法签名，比如 params，虽然白名单中这个params没有被混淆，但在工程中白名单里的对象调用这个 params 的时候（如o.params）找不到了。<br/>
-                <br/>
-                <font color=gray><b>『针对已知问题，若出现，请参考《常见问题 FAQ》手动进行修复』</b></font><br/><br/>
-                翻译支持导入文档翻译<br/>
-                json转model支持发送请求一键转换<br/>
-                新增xib转oc代码功能<br/>
-                优化工具使用体验<br/>
-                解决本地化处理工具crash的问题<br/>
-            </p>
-        </a-timeline-item>
-        <a-timeline-item>
-            <font color="gray">v1.2.0</font>
-            <p>
-                新增json转model<br/>
-                新增翻译工具<br/>
-                新增提取Assets资源工具<br/>
-                新增系统本地化工具<br/>
-                新增ipa重签名工具<br/>
-                新增描述文件管理<br/>
-                新增AppIcon、icon替换<br/>
-                新增icon背景色和尺寸的调整<br/>
-                优化使用路径<br/>
-                解决配置文件搜索的bug<br/>
-                修复部分注入方法参数传入nil的bug；<br/>
-                修复部分注入方法参数类型不匹配的bug；<br/>
-                修复部分注入方法对象类型不匹配的bug；<br/>
-                修复注入非法、奇怪的属性名导致的bug；<br/>
-            </p>
-        </a-timeline-item>
-        <a-timeline-item>
-            <font color="gray">v1.1.9</font>
-            <p>
-                优化查找替换属性和方法的逻辑；<br/>
-                优化写入文件之前的存储逻辑；<br/>
-                资源文件以及Assets和AppIcon图片优化；<br/>
-                优化代码缩进和注入代码格式；<br/>
-                调整ui交互；<br/>
-                优化状态栏ui交互；<br/>
-                优化白名单引用；<br/>
-                修复非法混淆词、关键字、标识符引起的问题；<br/>
-                修复工程目录引用错误的问题；<br/>
-                修复程序运行假死的问题；<br/>
-                修复资源修改时的逻辑漏洞；<br/>
-                修复崩溃问题, 修复pch和info.plist文件路径引入错误的问题, 调整扩展文件名称创建逻辑；<br/>
-            </p>
-        </a-timeline-item>
-        <a-timeline-item>
-            <font color="gray">v1.1.8</font>
-            <p>
-                新增文件头注释替换；<br/>
-                新增目录名和文件名替换；<br/>
-                新增文件通配后缀过滤；<br/>
-                新增混淆日志导出；<br/>
-                添加快捷键；<br/>
-                修复plist文件为空的bug；<br/>
-                修复白名单子目录和非白名单子目录中含同名被同步修改的问题；<br/>
-                修复实际目录和工程中的目录引用不同步的问题；<br/>
-                修复通过点语法访问setter和getter但未声明属性，从而setter被替换错误的bug；<br/>
-                修复截取一个文件多个类时发生的错误；<br/>
-            </p>
-        </a-timeline-item>
-        <a-timeline-item>
-            <font color="gray">v1.1.7</font>
-            <p>
-                添加属性限定符、修饰语义符的安全过滤；<br/>
-                支持软件快捷键组合；<br/>
-                新增四十个混淆分类词库；<br/>
-                新增注释和NSLog删除；<br/>
-                兼容LaunchScreen文件内容被替换的bug；<br/>
-                修复font资源加载不了的bug；<br/>
-                修复其他可能存在问题的bug；<br/>
-                修复工程中 info.plist 引入路径的错误；<br/>
-                变更目录路径crash；<br/>
-            </p>
-        </a-timeline-item>
-        <a-timeline-item>
-            <font color="gray">v1.1.6</font>
-            <p>
-                添加属性名混淆、方法名混淆；<br/>
-                添加系统api和常见三方sdk方法签名的安全过滤；<br/>
-                修复工程配置选项缓存的问题；<br/>
-                修复资源文件引入错误的问题；<br/>
-                修复注入的资源文件未被正确生成的问题；<br/>
-                修复main函数被替换的问题；<br/>
-            </p>
-        </a-timeline-item>
-        <a-timeline-item>
-            <font color="gray">v1.1.5</font>
-            <p>
-                修改log输出逻辑错误的问题；<br/>
-                修复自定义bundle下资源获取不到的bug；<br/>
-                修复api修改导致属性变化, 属性修改导致api变化的bug；<br/>
-                修复getter方法内部实例变量ivar没有同步被更换的bug；<br/>
-                修复系统方法被自定义重写之后导致被替换的bug；<br/>
-            </p>
-        </a-timeline-item>
-        <a-timeline-item>
-            <font color="gray">v1.1.4</font>
-            <p>
-                优化代码块、行内代码等显示效果；<br/>
-                新增工程目录变更白名单重置弹窗提示；<br/>
-                修复一个文件中多个类定义和实现，插入methods和properties的位置有误的bug；<br/>
-                修复了 Model 模型类中的属性在被调用时被修改的问题；<br/>
-                修复了setter方法被子类重写之后被修改了出错的bug；<br/>
-            </p>
-        </a-timeline-item>
-        <a-timeline-item>
-            <font color="gray">v1.1.0</font>
-            <p>
-                添加注入调用关系功能；<br/>
-                添加资源hash值更改；<br/>
-                修复import的分类名和实际category的文件名不一致的问题；<br/>
-                修复protocol中方法声明部分只替换一部分的bug；<br/>
-            </p>
-        </a-timeline-item>
-        <a-timeline-item>
-            <font color="gray">v1.0.2</font>
-            <p>
-                优化log输出；<br/>
-                新增terminal,终端打开当前工程目录的窗口；<br/>
-                新增打开工程选项；<br/>
+<b>当前线上版本 - v1.2.1</b>
+正式版
+<p></p>
+<p>
+<font color=red><b>此版本存在以下『已知问题』，请注意：</b></font>
+<br /><p></p>
+『已知问题』出现了 ld: framework not found XXX.framework framework路径改变的问题；<br/>
+『已知问题』pch文件位于工程根目录下，导致import的文件名未被修改的问题；<br/>
+『已知问题』若对象创建时指向的是子类对象，在注入的时候可能导致调用到子类注入的方法而抛出异常的问题；<br/>
+『已知问题』被混淆的文件中有与白名单中相同的属性名或者方法签名，比如 params，虽然白名单中这个params没有被混淆，但在工程中白名单里的对象调用这个 params 的时候（如o.params）找不到了。<br/>
+<br/>
+<font color=gray><b>『针对已知问题，若出现，请参考《常见问题 FAQ》手动进行修复』</b></font><br/><br/>
+翻译支持导入文档翻译<br/>
+json转model支持发送请求一键转换<br/>
+新增xib转oc代码功能<br/>
+优化工具使用体验<br/>
+解决本地化处理工具crash的问题<br/>
+</p>
+
+<font color="gray">v1.2.0</font>
+<p>
+    新增json转model<br/>
+    新增翻译工具<br/>
+    新增提取Assets资源工具<br/>
+    新增系统本地化工具<br/>
+    新增ipa重签名工具<br/>
+    新增描述文件管理<br/>
+    新增AppIcon、icon替换<br/>
+    新增icon背景色和尺寸的调整<br/>
+    优化使用路径<br/>
+    解决配置文件搜索的bug<br/>
+    修复部分注入方法参数传入nil的bug；<br/>
+    修复部分注入方法参数类型不匹配的bug；<br/>
+    修复部分注入方法对象类型不匹配的bug；<br/>
+    修复注入非法、奇怪的属性名导致的bug；<br/>
+</p>
+
+<font color="gray">v1.1.9</font>
+<p>
+    优化查找替换属性和方法的逻辑；<br/>
+    优化写入文件之前的存储逻辑；<br/>
+    资源文件以及Assets和AppIcon图片优化；<br/>
+    优化代码缩进和注入代码格式；<br/>
+    调整ui交互；<br/>
+    优化状态栏ui交互；<br/>
+    优化白名单引用；<br/>
+    修复非法混淆词、关键字、标识符引起的问题；<br/>
+    修复工程目录引用错误的问题；<br/>
+    修复程序运行假死的问题；<br/>
+    修复资源修改时的逻辑漏洞；<br/>
+    修复崩溃问题, 修复pch和info.plist文件路径引入错误的问题, 调整扩展文件名称创建逻辑；<br/>
+</p>
+
+<font color="gray">v1.1.8</font>
+<p>
+    新增文件头注释替换；<br/>
+    新增目录名和文件名替换；<br/>
+    新增文件通配后缀过滤；<br/>
+    新增混淆日志导出；<br/>
+    添加快捷键；<br/>
+    修复plist文件为空的bug；<br/>
+    修复白名单子目录和非白名单子目录中含同名被同步修改的问题；<br/>
+    修复实际目录和工程中的目录引用不同步的问题；<br/>
+    修复通过点语法访问setter和getter但未声明属性，从而setter被替换错误的bug；<br/>
+    修复截取一个文件多个类时发生的错误；<br/>
+</p>
+
+<font color="gray">v1.1.7</font>
+<p>
+    添加属性限定符、修饰语义符的安全过滤；<br/>
+    支持软件快捷键组合；<br/>
+    新增四十个混淆分类词库；<br/>
+    新增注释和NSLog删除；<br/>
+    兼容LaunchScreen文件内容被替换的bug；<br/>
+    修复font资源加载不了的bug；<br/>
+    修复其他可能存在问题的bug；<br/>
+    修复工程中 info.plist 引入路径的错误；<br/>
+    变更目录路径crash；<br/>
+</p>
+
+<font color="gray">v1.1.6</font>
+<p>
+    添加属性名混淆、方法名混淆；<br/>
+    添加系统api和常见三方sdk方法签名的安全过滤；<br/>
+    修复工程配置选项缓存的问题；<br/>
+    修复资源文件引入错误的问题；<br/>
+    修复注入的资源文件未被正确生成的问题；<br/>
+    修复main函数被替换的问题；<br/>
+</p>
+        
+<font color="gray">v1.1.5</font>
+ <p>
+    修改log输出逻辑错误的问题；<br/>
+    修复自定义bundle下资源获取不到的bug；<br/>
+    修复api修改导致属性变化, 属性修改导致api变化的bug；<br/>
+    修复getter方法内部实例变量ivar没有同步被更换的bug；<br/>
+    修复系统方法被自定义重写之后导致被替换的bug；<br/>
+</p>
+
+<font color="gray">v1.1.4</font>
+<p>
+    优化代码块、行内代码等显示效果；<br/>
+    新增工程目录变更白名单重置弹窗提示；<br/>
+    修复一个文件中多个类定义和实现，插入methods和properties的位置有误的bug；<br/>
+    修复了 Model 模型类中的属性在被调用时被修改的问题；<br/>
+    修复了setter方法被子类重写之后被修改了出错的bug；<br/>
+</p>
+
+<font color="gray">v1.1.0</font>
+<p>
+    添加注入调用关系功能；<br/>
+    添加资源hash值更改；<br/>
+    修复import的分类名和实际category的文件名不一致的问题；<br/>
+    修复protocol中方法声明部分只替换一部分的bug；<br/>
+</p>
+
+<font color="gray">v1.0.2</font>
+<p>
+    优化log输出；<br/>
+    新增terminal,终端打开当前工程目录的窗口；<br/>
+    新增打开工程选项；<br/>
                 新增打开工程的Finder目录选项；<br/>
-                修复工程中插注入方法引用资源错误的问题；<br/>
-            </p>
-        </a-timeline-item>
-        <a-timeline-item>
-            <font color="gray">v1.0.0</font>
-            <p>
-                添加对OC代码的混淆功能；<br/>
-            </p>
-        </a-timeline-item>
-    </a-timeline>
-</template>
+    修复工程中插注入方法引用资源错误的问题；<br/>
+</p>
+
+<font color="gray">v1.0.0</font>
+<p>
+    添加对OC代码的混淆功能；<br/>
+</p>
+
