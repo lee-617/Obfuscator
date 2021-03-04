@@ -12,10 +12,22 @@
 > 
 > 2.软件并非开源，如有混淆需求、马甲包开发、TF签名等需求，请联系在线详谈QQ:2480619280
 
-**相关链接：**
+**联系方式和相关链接：**
 
-Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.com/lee-617/Obfuscator)<br />
+Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.com/lee-617/Obfuscator)
+
 官方文档-使用说明:[http://118.31.36.105/docs/index.html](http://118.31.36.105/docs/index.html)<br />
+
+联系方式:
+
+<font color=red>QQ: 2480619280
+
+Telegram ID: Aaron617
+
+Patota ID: Aaron617</font>
+
+<font color=blue>QQ群请添加：782314620</font><br />
+
 
 -------
 
