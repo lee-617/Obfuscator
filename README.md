@@ -40,7 +40,8 @@ Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.co
 </table>
 
 <br />
-<font color=orange><b>QQ社群请添加：782314620</b></font><br />
+
+<font color=orange><b>🙏 项目点星进QQ社群，请添加：782314620</b></font><br />
 
 <span><img src="https://amzimg.com/2021/03/08/a8e9e94c03313.jpg" alt="qq_group.jpg" title="qq_group.jpg" width=200px /></span>
 
