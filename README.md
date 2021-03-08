@@ -4,11 +4,11 @@
 
 <img src="https://img.shields.io/badge/platform-ios%7Cmac%7CEgret%7Ccocos2dx%2BLua-orange" alt="platform">&emsp;<img src="https://img.shields.io/badge/version-v1.2.0-ff69b4" alt="version">
 
-混淆器 `iOSObfuscator` 是集合了<b>代码混淆、一键打包提审、审核状态监控、内跳SDK、常用开发工具集『icon一键替换、ipa重签名、本地化工具、json转model、色值小工具、文本和文档翻译、Assets.car/.app/.ipa资源提取工具等』 和 快速开发</b> 六个模块构建出来的 Mac 软件。<br><br>
+混淆器 `iOSObfuscator` 是集合了<b>代码混淆、一键打包提审、审核状态监控、内跳SDK、常用开发工具集『icon一键替换、ipa重签名、本地化工具、json转model、色值小工具、文本和文档翻译、Assets.car/.app/.ipa资源提取工具等』 和 快速开发</b> 五个模块构建出来的 Mac 软件。<br><br>
 
 > 注：
 > 
-> 1.现在最新版本<font color=red>尚未开放</font><font color=black>一键提审、审核状态监控；</red>
+> 1.现在最新版本<font color=red>尚未开放</font><font color=black>一键提审、审核状态监控；</font>
 > 
 > 2.软件并非开源，如有混淆需求、马甲包开发、TF签名等需求，请联系在线详谈QQ:2480619280
 
@@ -18,22 +18,21 @@ Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.co
 
 官方文档-使用说明:[http://118.31.36.105/docs/index.html](http://118.31.36.105/docs/index.html)<br />
 
-联系方式:
+|联系方式:||
+|--|--|
+|QQ:|2480619280|
+|Telegram ID:|Aaron617|
+|Patota ID:|Aaron617|
 
-<font color=red>QQ: 2480619280
+QQ群请添加：782314620
 
-Telegram ID: Aaron617
-
-Patota ID: Aaron617</font>
-
-<font color=blue>QQ群请添加：782314620</font><br />
-
+<br />
 
 -------
 
 **软件截图：**
 
-<img src="https://amzimg.com/2021/03/04/3577838c8f658.png" alt="szKOo9.png" border="0" />
+<center><img src="https://amzimg.com/2021/03/08/07c4182466186.png" alt="group.png" title="group.png" /></center>
 
 **围绕提审 AppStore 应用市场，本软件专门针对以下需求：**
 
@@ -54,7 +53,7 @@ Patota ID: Aaron617</font>
 
 **混淆界面细节展示：**
 
-<img src="https://amzimg.com/2021/03/04/03c4d22e09225.png" alt="config_obfus.png" title="config_obfus.png" />
+<img src="https://amzimg.com/2021/03/08/ab90aab494e6a.png" alt="config_obfus.png" title="config_obfus.png" width=1000px />
 
 **混淆前后展示：**
 
@@ -104,7 +103,7 @@ Patota ID: Aaron617</font>
 <span id="9_1_developing_tool_1"></span><br>
 ### 1. App logo 快速替换
 
-<span><img src="https://amzimg.com/2021/03/04/d720c2e5150eb.png" alt="appicon_op_1.png" title="appicon_op_1.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/13b1b59184a43.png" alt="appicon_op_1.png" title="appicon_op_1.png" width=1000px /></span>
 
 现在你可以直接使用该工具一键替换 app 中的 AppIcon 图标了。
 
@@ -118,7 +117,7 @@ Patota ID: Aaron617</font>
 
 > 注：因提交到 ITC 上的 logo 必须关闭 Alpha 通道，工具已自动为你选择的 icon 做了此操作。
 
-<span><img src="https://amzimg.com/2021/03/04/12b6b6910837d.png" alt="appicon_op_2.png" title="appicon_op_2.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/75dc5e3ccc565.png" alt="appicon_op_2.png" title="appicon_op_2.png" width=1000px /></span>
 
 **<font color="#EC542D" size=3>1.2 从iconfont网站下载图片进行替换</font>**
 
@@ -126,13 +125,13 @@ Patota ID: Aaron617</font>
 
 > 注：iconfont 网站是需要登录之后才能免费下载资源，请使用推荐的登录方式登录此网站
 
-<span><img src="https://amzimg.com/2021/03/04/b87ffd0a508ec.png" alt="appicon_op_3.png" title="appicon_op_3.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/a5f67c672dd1f.png" alt="appicon_op_3.png" title="appicon_op_3.png" width=1000px /></span>
 
 
 <span id="9_1_developing_tool_2"></span><br>
 ### 2. 工程 icon 快速替换
 
-<span><img src="https://amzimg.com/2021/03/04/39232fbd33158.png" alt="icon_op_1.png" title="icon_op_1.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/bf9392055cb79.png" alt="icon_op_1.png" title="icon_op_1.png" width=1000px /></span>
 
 该工具提供对整体工程中 Assets 目录下的某些或全部 icon 资源进行一键替换的便利操作。
 
@@ -151,7 +150,7 @@ Patota ID: Aaron617</font>
 <span id="9_1_developing_tool_3"></span><br>
 ### 3. 更改 icon 背景色和尺寸
 
-<span><img src="https://amzimg.com/2021/03/04/35464fad86e63.png" alt="icon2_op_1.png" title="icon2_op_1.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/b0dbb25d8573d.png" alt="icon2_op_1.png" title="icon2_op_1.png" width=1000px /></span>
 
 该功能允许你直接对工程中某些或所有 icon 资源进行调整，主要包括 `更改图片背景颜色` 和 `调整尺寸`。
 
@@ -169,14 +168,14 @@ Patota ID: Aaron617</font>
 
 iOS 通常打包时，需要证书和配置文件进行签名，对于逆向的朋友有可能需要对一个 ipa 进行重签名操作，这个工具提供了界面化操作，只要将需要换签的 ipa 文件导入，选择新的证书和配置文件即可一键替换 ipa 包中的签名文件。
 
-<span><img src="https://amzimg.com/2021/03/04/a62d6d24893a8.png" alt="resign_op_1.png" title="resign_op_1.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/d1068a2bbae48.png" alt="resign_op_1.png" title="resign_op_1.png" width=1000px /></span>
 
 <span id="9_1_developing_tool_5"></span><br>
 ### 5. profile 描述文件管理
 
 这里罗列了本机 Mac 中所有由你创建和Xcode自动生成的配置文件，目前仅支持查看、删除等基本操作，后续我们会根据需求逐步完善对描述文件的管理。
 
-<span><img src="https://amzimg.com/2021/03/04/132df53d82a4e.png" alt="profile_op_1.png" title="profile_op_1.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/69257c426758f.png" alt="profile_op_1.png" title="profile_op_1.png" width=1000px /></span>
 
 
 <span id="9_1_developing_tool_6"></span><br>
@@ -186,11 +185,11 @@ iOS 通常打包时，需要证书和配置文件进行签名，对于逆向的�
 
 文本的翻译如下：
 
-<span><img src="https://amzimg.com/2021/03/04/944cc0f78df1f.png" alt="trans_op_1.png" title="trans_op_1.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/8b542dd6432e7.png" alt="trans_op_1.png" title="trans_op_1.png" width=1000px /></span>
 
 除此之外，在右上角功能按键中，我们支持一键对导入的文档进行翻译并导出，支持导入的文件类型有：`.doc`、`.docx`、`.txt`、`.plist`（<font color=red>其中plist文件已经过解析，会忽略key而只翻译其key对应的值</font>），文档翻译区域如下：
 
-<span><img src="https://amzimg.com/2021/03/04/0c1fa739169af.png" alt="trans_op_2.png" title="trans_op_2.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/0c5527b943efe.png" alt="trans_op_2.png" title="trans_op_2.png" width=1000px /></span>
 
 使用步骤：
 1. 导入已支持类型的源文件：.doc或.docx或.txt或.plist；
@@ -208,12 +207,12 @@ Json 是开发中最常见到的数据结构，在 iOS 开发中，无论是MVC�
 你现在可以：
 1. 拷贝一段 Json 数据（或从本地导入 json 文件），自动生成对应的 OC 模型类代码；
 
-<span><img src="https://amzimg.com/2021/03/04/4fd381d3e26a1.png" alt="jm_local_1.png" title="jm_local_1.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/b2aa273adc47e.png" alt="jm_local_1.png" title="jm_local_1.png" width=1000px /></span>
 
 2. 支持 get 和 post 配置请求参数，发起请求后，直接在右边生成 Model 类代码；
 
-<span><img src="https://amzimg.com/2021/03/04/f6dd87a00fd90.png" alt="jm_requ_2.png" title="jm_requ_2.png" width="1000px"></span>
-<span><img src="https://amzimg.com/2021/03/04/b96bdb54d160d.png" alt="jm_requ_1.png" title="jm_requ_1.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/d3e33f8370150.png" alt="jm_requ_1.png" title="jm_requ_1.png" width=1000px /></span>
+<span><img src="https://amzimg.com/2021/03/08/97aa8d17da046.png" alt="jm_requ_2.png" title="jm_requ_2.png" width=1000px /></span>
 
 
 <span id="9_1_developing_tool_8"></span><br>
@@ -221,7 +220,7 @@ Json 是开发中最常见到的数据结构，在 iOS 开发中，无论是MVC�
 
 iOS 开发中，一般有两种编写代码的方式：通过xib布局 或 纯代码，前者本质是使用 xml 标记了视图对象的各个属性和彼此间的层级关系。对于马甲包开发中，为了应对代码重复，使用xib和纯代码布局导致的是两份不重复的代码。
 
-<span><img src="https://amzimg.com/2021/03/04/97aebf406a440.png" alt="xibtocode_op_1.png" title="xibtocode_op_1.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/f794b51be6c18.png" alt="xibtocode_op_1.png" title="xibtocode_op_1.png" width=1000px /></span>
 
 如图，这个工具能够罗列工程中所有的 `xib` 视图布局文件，通过解析其中的对象和层级关系，准确地将可视化的 `xib` 转为纯代码文本，目前支持输出 frame 的布局，尚不支持输出 Autolayout 约束代码。
 
@@ -233,7 +232,7 @@ iOS 开发中，一般有两种编写代码的方式：通过xib布局 或 纯�
 1. 支持 `RGB` 和 `Hex十六进制` 色值的相互转换；
 2. 支持颜色板取色获取 RGB、Hex、CMYK值。
 
-<span><img src="https://amzimg.com/2021/03/04/a99bd0f82cd61.png" alt="colorT_op_1.png" title="colorT_op_1.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/6adcc2eadbd5c.png" alt="colorT_op_1.png" title="colorT_op_1.png" width=1000px /></span>
 
 
 
@@ -246,20 +245,20 @@ iOS 开发中，一般有两种编写代码的方式：通过xib布局 或 纯�
 
 只需要点击某条目最右边的本地化按钮，即可完成所有已勾选的语言的翻译工作，你也可以直接点击一键本地化处理，这将会直接根据主语言的key-value，自动翻译为所有目标语言的key-value对。
 
-<span><img src="https://amzimg.com/2021/03/04/460ee74f7efc3.png" alt="localize_op_1.png" title="localize_op_1.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/dbd104387a038.png" alt="localize_op_1.png" title="localize_op_1.png" width=1000px /></span>
 
 添加一个新的key：
 
-<span><img src="https://amzimg.com/2021/03/04/82de90274ab63.png" alt="localize_op_2.png" title="localize_op_2.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/f4661911a5513.png" alt="localize_op_2.png" title="localize_op_2.png" width=1000px /></span>
 
 对一个条目进行所有语言的翻译处理：
 
-<span><img src="https://amzimg.com/2021/03/04/e311778eb3849.png" alt="localize_op_3.png" title="localize_op_3.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/d605f23c6d8c2.png" alt="localize_op_3.png" title="localize_op_3.png" width=1000px /></span>
 
 <span id="9_1_developing_tool_11"></span><br>
 ### 11. 一键提取Assets.car/.app/.ipa中的资源图片
 
-<span><img src="https://amzimg.com/2021/03/04/9fe51439522bd.png" alt="assets_op_1.png" title="assets_op_1.png" width="1000px"></span>
+<span><img src="https://amzimg.com/2021/03/08/48b0cbfece795.png" alt="assets_op_1.png" title="assets_op_1.png" width=1000px /></span>
 
 独立开发者在开发过程中经常需要各种素材资源，为此我们加入了提取 Assets.car/.app/.ipa 中资源的功能，从中可以提取出优秀的icon设计用以作为设计参考之用。
 
@@ -281,9 +280,6 @@ iOS 开发中，一般有两种编写代码的方式：通过xib布局 或 纯�
 为了快速开发节省编码时间，我们在软件中放置了一个编辑器（目前只包含了工程的目录树和内容区进行展示），在右侧栏中，你可以在中间内容区一键插入/预览/拷贝一些我们预置的代码，分类目前有以下几种：
 
 - UIKit控件：UIView、UILabel、UIImageView、UIButton、UITextView、UITableView、UICollectionView、UIScrollView、UIPickerView、UIDataPicker、UISwitch、UIPageControl、UISearchBar、UIControl、UIProgressView、UISegmentedControl、UISlider、UIImage
-- Foundation：NSLocale、NSURL、NSData、NSString、NSMutableString、NSCharacterSet、NSMutableParagraphStyle、NSRegularExpression、NSDateFormatter、NSArray、NSMutableArray、NSDictionary、NSMutableDictionary、NSSet、NSMutableSet、NSDate、NSCalendar、NSDateFormatter、NSURL、NSAttributedString、NSMutableAttributedString、NSDateComponents
-- CoreAnimation：CABasicAnimation、CAKeyframeAnimation、CASpringAnimation
-- 基本数据类型：NSRange、NSTimeInterval、NSInteger、NSUInteger、CGRect、CGSize、CGPoint、BOOL、CGFloat、float、double、int、unsigned int、unsigned long
 
 - 常用的iOS开发的工具函数：
   - 数组常用操作；
@@ -309,6 +305,7 @@ iOS 开发中，一般有两种编写代码的方式：通过xib布局 或 纯�
 > 
 > 3. 函数已经过测试，但还是建议你实际测试结果是否准确无误；
 
+--------
 
 ## 更新日志
 
@@ -443,4 +440,3 @@ json转model支持发送请求一键转换<br/>
 <p>
     添加对OC代码的混淆功能；<br/>
 </p>
-
