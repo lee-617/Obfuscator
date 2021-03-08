@@ -18,15 +18,31 @@ Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.co
 
 官方文档-使用说明:[http://118.31.36.105/docs/index.html](http://118.31.36.105/docs/index.html)<br />
 
-|联系方式:||
-|--|--|
-|QQ:|2480619280|
-|Telegram ID:|Aaron617|
-|Patota ID:|Aaron617|
+因为软件并非免费开源，你需要联系购买得到账户和密钥之后方能正常使用。第一次登入之后会自动保存密钥，之后登入就无需再次输入。
 
-QQ群请添加：782314620
+<font color=orange><b>你可以通过以下联系方式直接添加联系购买：</b></font><br/>
+<table>
+    <tr>
+        <td align="center"><b>QQ:</b></td>
+        <td align="center">2480619280</td>
+        <td align="center"><img src="https://amzimg.com/2021/03/04/27960e2c09a50.png" width="110px" height="110px" alt=""></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Telegram:</b></td>
+        <td align="center">Aaron617</td>
+        <td align="center"><img src="https://amzimg.com/2021/03/04/5dc240444383b.png" width="110px" height="110px" alt=""></td>
+    </tr>
+    <tr>
+        <td align="center"><b>Potato:</b></td>
+        <td align="center">Aaron617</td>
+        <td align="center"><img src="https://amzimg.com/2021/03/04/35161bc73099e.png" width="110px" height="110px" alt=""></td>
+    </tr>
+</table>
 
 <br />
+<font color=orange><b>QQ社群请添加：782314620</b></font><br />
+
+<span><img src="https://amzimg.com/2021/03/08/a8e9e94c03313.jpg" alt="qq_group.jpg" title="qq_group.jpg" width=200px /></span>
 
 -------
 
