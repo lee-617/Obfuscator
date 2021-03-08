@@ -4,7 +4,7 @@
 
 <img src="https://img.shields.io/badge/platform-ios%7Cmac%7CEgret%7Ccocos2dx%2BLua-orange" alt="platform">&emsp;<img src="https://img.shields.io/badge/version-v1.2.0-ff69b4" alt="version">
 
-混淆器 `iOSObfuscator` 是集合了<b>代码混淆、一键打包提审、审核状态监控、内跳SDK、常用开发工具集『icon一键替换、ipa重签名、本地化工具、json转model、色值小工具、文本和文档翻译、Assets.car/.app/.ipa资源提取工具等』 和 快速开发</b> 五个模块构建出来的 Mac 软件。<br><br>
+混淆器 `iOSObfuscator` 是集合了<b>『代码混淆』、『一键打包提审』、『审核状态监控』、『内跳SDK』、『常用开发工具集(icon一键替换、ipa重签名、本地化工具、json转model、色值小工具、文本和文档翻译、Assets.car/.app/.ipa资源提取工具等)』 和 『快速开发』</b> 六个模块构建出来的 Mac 软件。<br><br>
 
 > 注：
 > 
