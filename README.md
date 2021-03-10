@@ -25,17 +25,17 @@ Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.co
     <tr>
         <td align="center"><b>QQ:</b></td>
         <td align="center">2480619280</td>
-        <td align="center"><img src="https://amzimg.com/2021/03/04/27960e2c09a50.png" width="110px" height="110px" alt=""></td>
+        <td align="center"><img src="https://amzimg.com/2021/03/04/27960e2c09a50.png" width="110px" alt=""></td>
     </tr>
     <tr>
         <td align="center"><b>Telegram:</b></td>
         <td align="center">Aaron617</td>
-        <td align="center"><img src="https://amzimg.com/2021/03/04/5dc240444383b.png" width="110px" height="110px" alt=""></td>
+        <td align="center"><img src="https://amzimg.com/2021/03/04/5dc240444383b.png" width="110px" alt=""></td>
     </tr>
     <tr>
         <td align="center"><b>Potato:</b></td>
         <td align="center">Aaron617</td>
-        <td align="center"><img src="https://amzimg.com/2021/03/04/35161bc73099e.png" width="110px" height="110px" alt=""></td>
+        <td align="center"><img src="https://amzimg.com/2021/03/04/35161bc73099e.png" width="110px" alt=""></td>
     </tr>
 </table>
 
