@@ -1,4 +1,4 @@
-<img src="https://s3.ax1x.com/2021/01/27/szmFC6.png" alt="lee_con_logo" height=150>
+<div><img src="https://s3.ax1x.com/2021/01/27/szmFC6.png" alt="lee_con_logo" height=150></div>
 
 # iOSObfuscator - 代码混淆加固大幅提高AppStore过审率
 
