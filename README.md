@@ -14,7 +14,7 @@
 
 **联系方式和相关链接：**
 
-Mac 软件下载地址:[https://github.com/lee-617/Obfuscator](https://github.com/lee-617/Obfuscator)
+Mac 软件下载地址:[https://github.com/lee-617/Obfuscator/releases/tag/v1.2.7](https://github.com/lee-617/Obfuscator/releases/tag/v1.2.7)
 
 官方文档-使用说明:[http://118.31.36.105/docs/index.html](http://118.31.36.105/docs/index.html)<br />
 
