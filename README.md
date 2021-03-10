@@ -18,7 +18,7 @@ Mac 软件下载地址:[https://github.com/lee-617/Obfuscator/releases/tag/v1.2.
 
 官方文档-使用说明:[http://118.31.36.105/docs/index.html](http://118.31.36.105/docs/index.html)<br />
 
-因为软件并非免费开源，你需要联系购买得到账户和密钥之后方能正常使用。第一次登入之后会自动保存密钥，之后登入就无需再次输入。
+因为软件并非免费开源，注册登录后，会有一周的免费功能模块试用期。
 
 <font color=orange><b>你可以通过以下联系方式直接添加联系购买：</b></font><br/>
 <table>
