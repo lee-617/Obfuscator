@@ -88,7 +88,7 @@ Mac 软件下载地址:[https://github.com/lee-617/Obfuscator/releases/tag/v1.2.
 
 <br />
 <p>&nbsp; </p>  
-更多混淆使用请参考：<a href="/zh/3_ontact_buying">详细文档说明</a>
+更多混淆使用请参考：<a href="http://118.31.36.105/docs/zh/5_confuscator_tool_instruction.html">详细文档说明</a>
 <p>&nbsp; </p> 
 
 ---
