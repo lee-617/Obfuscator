@@ -18,7 +18,7 @@ Mac 软件下载地址:[https://github.com/lee-617/Obfuscator/releases/tag/v1.2.
 
 官方文档-使用说明:[http://118.31.36.105/docs/index.html](http://118.31.36.105/docs/index.html)<br />
 
-因为软件并非免费开源，注册登录后，会有一周的免费vip功能模块试用期(注:并非混淆部分)。
+因为软件并非免费开源，如有需求, 请联系我们!
 
 <font color=orange><b>你可以通过以下联系方式直接添加联系购买：</b></font><br/>
 <table>
